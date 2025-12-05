@@ -25,7 +25,7 @@ Received Geometric Progression: [6, 36, 216, 1296, 7776, 46656, 279936, 1679616,
 '/api/sales/avg-by-status' ==>Fetch  Average sales per order status <br>
 '/api/sales/records' ==>Fetch All Records From the CSV <br>
  ### Note : 
- <li> To run the 'DataAnalysis' project simply colne the project and run  './gradlew :daily_analysis:bootRun' at the project level directory
+ <li> To run the 'DataAnalysis' project simply colne the project and run  './gradlew :data_analysis:bootRun' at the project level directory
  <li> To run the Producer-consumer Project simply run './gradlew :pub-sub:bootRun' at the project level directory
 
  Sample result for 'DataAnalysis' Project : 
