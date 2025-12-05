@@ -20,6 +20,10 @@ dependencies {
     testRuntimeOnly 'org.junit.vintage:junit-vintage-engine:5.10.2'
 }
 
+springBoot {
+    mainClass = 'org.example.Main'
+}
+
 tasks.test {
     useJUnitPlatform()
 }
