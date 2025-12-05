@@ -16,3 +16,17 @@
 14 th term in GP is : 78364164096<br>
 15 th term in GP is : 470184984576<br>
 Received Geometric Progression: [6, 36, 216, 1296, 7776, 46656, 279936, 1679616, 10077696, 60466176, 362797056, 2176782336, 13060694016, 78364164096, 470184984576]
+
+
+#### For the second assignment the following API's are created to fetch the analysed data
+'/api/sales/total' ==>Fetch Total sales <br>
+'/api/sales/by-year' ==>Fetch Total Sales by year <br>
+'/api/sales/top-customers' ==>Fetch top "limit" customers by Revenue default value=1 <br>
+'/api/sales/avg-by-status' ==>Fetch  Average sales per order status <br>
+'/api/sales/records' ==>Fetch All Records From the CSV <br>
+ ### Note : 
+ <li> To run the 'DataAnalysis' project simply colne the project and run  './gradlew bootRun' at the project level directory
+ <li> To run the Producer-consumer Project simply run the main class.
+
+ Sample result for 'DataAnalysis' Project : 
+ <img width="1250" height="768" alt="image" src="https://github.com/user-attachments/assets/5c4049b3-7444-410a-b66b-1442b7e2682c" />
