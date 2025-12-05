@@ -1,0 +1,4 @@
+rootProject.name = 'my-multi-app'
+
+include 'Pub-Sub'
+include 'Data_Analysis'
